@@ -1,0 +1,29 @@
+{
+    "name": "kevynhb/phptips001",
+    "description": "Conhecendo o Composer | PHP Tips ep01",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dead\\Ep01\\": "src/",
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kevyn Hotts",
+            "email": "kevyn.hotts@unemat.br",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+
+    "require": {
+        "coffeecode/datalayer": "1.1.2"
+    }
+}
